@@ -1,0 +1,160 @@
+a {
+    color: white; /* Couleur de texte par défaut */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    padding: 50px 100px; /* Ajoute un peu de marge autour du lien */
+    background-color: rgb(97, 135, 110); /* Fond transparent par défaut */
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+a:hover, a:active {
+  color:rgba(255,255,255,.5); /* Changement de la couleur de texte */
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    font-family: 'Open Sans';
+}
+p{
+    font-size: 20px;
+}
+#bande {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 122px;
+    background-color:rgba(0,0,0,.5) ;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#bande img {
+    margin-left: 300px;
+    height: 100px;
+}
+
+#bande h1 {
+    font-size: 24px;
+    color: #fff;
+
+}
+
+#bande a {
+    top:0;
+    left:0;
+    position: fixed;
+    background-color: rgb(60, 98, 85);
+}
+
+
+#donate_home{
+    position: fixed;
+    top:0px;
+    right:0px;
+}
+#donate_home a{
+    background-color: rgb(166, 187, 141);
+    display:inline-block;
+}
+#about_home{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+#about_home a{
+
+    display:inline-block;
+    margin-right: 256px;
+}
+
+
+body
+{
+    background: url(image/homegorille.png) no-repeat;
+    background-size: 100%;
+    background-color:rgb(34, 75, 12);
+    color: white;
+
+
+}
+
+.container {
+    margin-top: 650px;
+    text-align: center;
+    color:white;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(60, 98, 85)
+}
+
+
+.about{
+    padding: 200px;
+    padding-bottom: 50px;
+
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Ajoute une bordure en dessous de la section 1 */
+}
+
+
+.news{
+    padding:300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.donate{
+    padding: 400px;
+    padding-top: 10px;
+}
+.donate h2{
+    margin:50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    padding: 20px;
+}
+.card img {
+  width: 210px;
+}
+.card a {
+  flex-grow: 1;
+  padding-left: 20px;
+  text-align: center;
+}
+.cards {
+  display: list-item;
+    flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+    flex-grow: 1;
+    margin: 10px;
+}
